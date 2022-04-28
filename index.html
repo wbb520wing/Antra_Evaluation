@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rongna Huang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rongna's Evaluation</title>
+      <link rel="stylesheet" href="styles.css">
+      <script async type='module' src='index.js' ></script>
+  </head>
+  <body>
+    <header>
+        <input id='input_text' type='text' placeholder="To to list..."/>
+        <button class='submit_btn'>Submit</button>
+    </header>
+    <main class='container'>
+      <section id='pending'>
+        <h1>Pending Tasks</h1>
+        <div class='list_container'>
+        <ul class='pending_lists'>
+          <li>
+            <span class='list_content'></span>
+            <button class="edit_btn"></button>
+            <button class="delete_btn"></button>
+            <button class="move_btn"></button>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <section id='completed'>
+        <H2>Completed Tasks</H2>
+        <div class='list_container'>
+        <ul class='completed_lists'>
+          <li>
+            <button class="move_btn"></button>
+            <span class='list_content'></span>
+            <button class="edit_btn"></button>
+            <button class="delete_btn"></button>>
+          </li>
+        </ul>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
